@@ -49,7 +49,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 .fillMaxSize(fraction = 1f)
                 .padding(12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = colorResource(id = R.color.car_0_bg)
+                containerColor = colorResource(id = R.color.card_0_bg)
             )
         ) {
             Row {
