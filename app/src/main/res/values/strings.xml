@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">QuestLayout_155</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Vera Indriyani</string>
+    <string name="alamat">Seleman</string>
+    <string name="copy">Copyright, 2026</string>
 </resources>
