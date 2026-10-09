@@ -44,3 +44,39 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(25.dp))
 
+        Card(
+            modifier = Modifier
+                .fillMaxSize(fraction = 1f)
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = colorResource(id = R.color.car_0_bg)
+            )
+        ) {
+            Row {
+                val gambar = painterResource(id = R.drawable.logo)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+                Spacer(modifier = Modifier.width(30.dp))
+                Column {
+                    Text(
+                        text = "Rafi Ammar",
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = "Tamantirto, Bantul",
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                        modifier = modifier.padding(top = 10.dp)
+                    )
+                }
+            }
+        }
+
